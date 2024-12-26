@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-container">
+        <div class="temp-time">
+          <div class="temp">
+            <p>20</p>
+          </div>
+          <div class="time-location">
+            <p>Dhaka</p>
+            <br />
+            <span>9:35am Tuesday 2024 - 12 - 24 </span>
+          </div>
+        </div>
+      </div>
+      <div class="rightBox">
+        <form action="">
+          <input
+            type="text"
+            placeholder="Search for the location"
+            class="search-area"
+            style="color: white"
+          />
+          <button type="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </button>
+        </form>
+
+        <p
+          style="
+            margin-top: 30px;
+            color: #ccc;
+            font-size: 13px;
+            font-weight: 200;
+          "
+        >
+          weather details .....
+        </p>
+
+        <div
+          class="condition"
+          style="
+            height: auto;
+            width: 70%;
+            /* background-color: white; */
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            padding-right: 20px;
+            
+          "
+        >
+        <h4 style="
+        font-size: 15px;
+        font-weight: 400;
+        color: #ccc;
+        margin-top: 10px;
+        display: flex;
+      
+      " > Weather Condition is : 
+        <h5 style="margin-top: 10px; margin-bottom: 10px; font-size: 30px; color: white;">mist
+
+        </h5>
+        
+    </h4>
+        
+          <h6 style="display: flex; justify-content: space-between; margin-bottom: 20px; font-size: 15px; font-weight: bold; color: #ccc;">Humidity is <p class="humidity">11</p></h6>
+          <h6 style="display: flex; justify-content: space-between; margin-bottom: 20px;font-size: 15px; font-weight: bold;color: #ccc; ">tempareture In Farenheight<p class="tempfu">22</p></h6>
+          <h6 style="display: flex; justify-content: space-between; margin-bottom: 20px;font-size: 15px; font-weight: bold; color: #ccc;"> Wind Speed is<p class="windSpeedk">33</p></h6>
+          <h6 style="display: flex; justify-content: space-between; margin-bottom: 20px;font-size: 15px; font-weight: bold; color: #ccc;">Wind Speed is<p class="windSpeedm">44</p></h6>
+          <h6 style="display: flex; justify-content: space-between; margin-bottom: 20px;font-size: 15px; font-weight: bold; color: #ccc;">"Wind Direction is " <p class="winddir">SW</p></h6>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

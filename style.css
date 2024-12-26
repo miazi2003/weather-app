@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-jplenio-1118873.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  color: white;
+}
+
+.temp-time {
+  height: auto;
+  width: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  padding: 20px;
+}
+
+.temp {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.time-location {
+  margin-left: 20px;
+}
+.time-location p {
+  font-size: 35px;
+  margin-bottom: 10x;
+}
+.time-location span {
+  font-size: 15px;
+}
+
+.search-area {
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+form {
+  height: auto;
+  width: max-content;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+form button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+
+  
+ 
+}
+form input{
+    height: auto;
+    width: 250px;
+    
+}
+button svg{
+  height: 20px;
+  width: 25px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+.rightBox {
+  height: 100%;
+  width: 450px;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  right: 0;
+  border-left: 2px solid #5a555544;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 40px;
+}
